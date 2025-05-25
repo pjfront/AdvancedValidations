@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Parent_Condition__c</fullName>
+    <description>Parent condition that references the child object</description>
+    <externalId>false</externalId>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <label>Parent Condition</label>
+    <referenceTo>Condition__mdt</referenceTo>
+    <relationshipLabel>Child Object Conditions</relationshipLabel>
+    <relationshipName>Child_Object_Conditions</relationshipName>
+    <required>true</required>
+    <type>MetadataRelationship</type>
+    <unique>false</unique>
+</CustomField>
